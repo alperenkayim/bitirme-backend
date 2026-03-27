@@ -33,9 +33,9 @@ Final deliverable: a research paper comparing both architectures on the **SWE-QA
 
 | Component | Description | Status |
 |-----------|-------------|--------|
-| Deep Agent backend | Python, LangChain deepagents, langgraph dev | Week 2 — In Progress |
-| ReAct Agent backend | Python, LangChain | Week 3+ — Not started |
-| Frontend UI | LangGraph Studio (built-in) → custom UI later | Week 2 — In Progress |
+| Deep Agent backend | Python, LangChain deepagents, langgraph dev | Week 2 — Complete |
+| ReAct Agent backend | Python, LangChain | Week 3 — Not started |
+| Frontend UI | LangGraph Studio (built-in) → custom UI later | Week 2 — Complete |
 | SWE-QA Evaluation | Benchmark both agents on dataset | Later |
 | Research Paper | Academic comparison of both architectures | Final |
 
@@ -56,6 +56,9 @@ User → LangGraph Studio UI (https://smith.langchain.com/studio)
          - Shell (execute)
          - Sub-agents (task)
          - Context Summarization
+       Custom Tools:
+         - clone_and_read_repo(repo_url) — clones GitHub repo, returns file tree + key file contents
+         - read_repo_file(file_path) — reads a specific file from a cloned repo
 ```
 
 ## Repository Structure

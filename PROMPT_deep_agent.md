@@ -9,7 +9,7 @@ Use these templates when asking Antigravity or Copilot Chat to help with the Dee
 ```
 Project: AI Agent chatbot that answers questions about software repositories.
 Stack: Python 3.13, uv package manager, deepagents==0.4.12, langgraph, langchain-google-genai.
-LLM: Google Gemini 2.0 Flash via langchain-google-genai.
+LLM: Google Gemini 2.5 Flash via langchain-google-genai (Paid tier 1). Fallback: gemini-2.0-flash-lite.
 Deployment: langgraph dev → LangGraph Studio UI.
 Rules:
   - Use uv (not pip)
