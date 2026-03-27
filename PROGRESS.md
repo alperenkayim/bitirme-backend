@@ -5,26 +5,25 @@
 ### Completed
 - [x] `uv` package manager installed (v0.11.2)
 - [x] Project initialized with `uv init` at `c:\bitirme`
-- [x] Dependencies installed: `deepagents`, `langgraph-cli[inmem]`, `langchain-google-genai`, `python-dotenv`
-- [x] `agent.py` created — Deep Agent with all default tools (planning, vfs, shell, sub-agents)
+- [x] Dependencies installed: `deepagents`, `langgraph-cli[inmem]`, `langchain-google-genai`, `python-dotenv`, `gitpython`
+- [x] `agent.py` created — Deep Agent with all default tools (planning, vfs, shell, sub-agents) + custom `clone_and_read_repo` tool
 - [x] `langgraph.json` created — graph config for `langgraph dev`
-- [x] `.env` template created (GOOGLE_API_KEY placeholder)
+- [x] `.env` configured with GOOGLE_API_KEY (Paid tier 1 account)
 - [x] `.gitignore` created
 - [x] MD documentation files created
-
-### In Progress
-- [ ] Set `GOOGLE_API_KEY` in `.env` (manuel — aistudio.google.com/app/apikey)
-- [ ] `langgraph dev` tested and LangGraph Studio connected
-- [ ] Instructor `amirkiarafiei` added as collaborator to both repos (manuel — GitHub Settings)
-- [ ] GitHub Copilot account approval (pending)
-
-### Completed (continued)
 - [x] `gh` CLI v2.68.1 installed → `C:\Users\Alperen Kayım\.local\bin\gh.exe`
 - [x] `uv` + `gh` added to Windows user PATH permanently
 - [x] `gh auth login` completed (GitHub account: alperenkayim)
 - [x] MD documentation system created (CONTEXT, PROGRESS, DECISIONS, AGENTS, SECURITY, PROMPT_deep_agent)
 - [x] GitHub repo `bitirme-backend` created → https://github.com/alperenkayim/bitirme-backend
 - [x] GitHub repo `bitirme-frontend` created → https://github.com/alperenkayim/bitirme-frontend
+- [x] `langgraph dev` tested — server running on port 2024, LangGraph Studio connected
+- [x] Agent tested — successfully cloned and analyzed GitHub repositories via `clone_and_read_repo` tool
+- [x] Instructor `amirkiarafiei` collaborator invite sent to both repos
+
+### In Progress
+- [ ] Instructor collaborator invite acceptance (pending on their end)
+- [ ] GitHub Copilot account approval (pending)
 
 ---
 
