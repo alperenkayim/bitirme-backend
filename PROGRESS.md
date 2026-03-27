@@ -14,15 +14,16 @@
 
 ### In Progress
 - [ ] Set `GOOGLE_API_KEY` in `.env`
-- [ ] GitHub repo `bitirme-backend` created and code pushed
 - [ ] GitHub repo `bitirme-frontend` created (LangGraph Studio UI link)
 - [ ] `langgraph dev` tested and LangGraph Studio connected
 - [ ] GitHub Copilot account approval (pending)
 
 ### Completed (continued)
 - [x] `gh` CLI v2.68.1 installed → `C:\Users\Alperen Kayım\.local\bin\gh.exe`
-- [x] `gh auth login` completed (GitHub account linked)
+- [x] `uv` + `gh` added to Windows user PATH permanently
+- [x] `gh auth login` completed (GitHub account: alperenkayim)
 - [x] MD documentation system created (CONTEXT, PROGRESS, DECISIONS, AGENTS, SECURITY, PROMPT_deep_agent)
+- [x] GitHub repo created and pushed → https://github.com/alperenkayim/bitirme-backend
 
 ---
 
