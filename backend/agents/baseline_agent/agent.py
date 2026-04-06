@@ -1,5 +1,3 @@
-import os
-
 from dotenv import load_dotenv
 from langchain.agents import create_agent
 from langchain.chat_models import init_chat_model
@@ -10,13 +8,7 @@ from langsmith_check import langsmith_check
 load_dotenv()
 langsmith_check()
 
-_provider = os.getenv("BASELINE_LLM_PROVIDER", "google")
-_model_id = (
-    "groq:llama3-groq-70b-8192-tool-use-preview"
-    if _provider == "groq"
-    else "google_genai:gemini-2.5-flash"
-)
-model = init_chat_model(_model_id)
+model = init_chat_model("google_genai:gemini-2.5-flash")
 
 agent = create_agent(
     model,
