@@ -23,7 +23,7 @@ from shared.repo_utils import build_file_tree, clone_repo, read_text_file
 
 logger = logging.getLogger(__name__)
 
-MAX_FILE_BYTES = 8_000
+MAX_FILE_BYTES = 12_000
 
 # In-memory RAG index cache keyed by repo path
 _rag_indexes: dict[str, FAISS] = {}
