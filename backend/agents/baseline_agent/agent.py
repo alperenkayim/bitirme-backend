@@ -3,8 +3,10 @@ from langchain.agents import create_agent
 from langchain.chat_models import init_chat_model
 
 from agents.baseline_agent.tools import get_repo_structure, read_file, search_rag
+from langsmith_check import langsmith_check
 
 load_dotenv()
+langsmith_check()
 
 model = init_chat_model("google_genai:gemini-2.5-flash")
 

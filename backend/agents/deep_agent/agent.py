@@ -8,8 +8,10 @@ from agents.deep_agent.tools import (
     read_local_repo,
     read_repo_file,
 )
+from langsmith_check import langsmith_check
 
 load_dotenv()
+langsmith_check()
 
 model = init_chat_model("google_genai:gemini-2.5-flash")
 
